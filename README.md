@@ -17,5 +17,5 @@ This is an aggregated Console to view the status of servers and applications run
    `<Valve className="org.apache.catalina.valves.RemoteAddrValve"
          allow="10\.11\.12\.13" />`
 
-3. Deploy psi-probe in webapp. [PSI-Probe] https://github.com/psi-probe/psi-probe
+3. Deploy psi-probe in webapp. [link to PSI-Probe!](https://github.com/psi-probe/psi-probe)
 
