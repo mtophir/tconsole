@@ -21,12 +21,13 @@ This is an aggregated Console to view the status of servers and applications run
 3. Deploy psi-probe in webapp. [Link to PSI-Probe](https://github.com/psi-probe/psi-probe)
 
 ### User configuration
-To access tconsole, you would an id and password. Specify the users and passwords in users.conf
-The format is name,password
-Example of users.conf:
-#name, password
-guest,guest123
+* To access tconsole, a user would need an id and password to login. Specify the users and passwords in users.conf
 
-The user name and password has to be specified in tomcat-users.xml with a "manager-script" role.
+* The format is name,password
+* Example of users.conf:
+* #name, password (comment line)
+* guest,guest123
+
+The user name and password has to be specified in tomcat-users.xml with a **"manager-script"** role.
 
 ### Server configuration
