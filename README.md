@@ -25,10 +25,11 @@ To access tconsole, a user would need an id and password to login. Specify the u
 
 The format is name,password
 
-`
+```
 #name, password (comment line) 
-guest,guest123
-`
+tomcat,secR5t
+```
+
 The user name and password has to be specified in tomcat-users.xml with a **"manager-script"** role.
 
 ### Server configuration
